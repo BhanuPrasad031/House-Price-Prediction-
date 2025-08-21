@@ -11,7 +11,6 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from joblib import dump
 
-# ABSOLUTE PATH TO YOUR CSV (raw string to handle backslashes)
 DATA_PATH = r"C:\Users\Bhanu Prasad\ML project\House Price Prediction Dataset.csv"
 TARGET = "Price"
 TEST_SIZE = 0.2
@@ -122,3 +121,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
